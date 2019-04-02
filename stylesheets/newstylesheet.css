@@ -90,8 +90,7 @@
     display: none;
     padding: 2vmin 4vmin;
     border-top: none;
-    max-width: 80vw;
-    min-width: 0vw;
+    width: 75vw;
     font-size: 2.6vmin;
     color: rgb(180, 180, 180);
     line-height: 4.5vmin;
@@ -99,9 +98,8 @@
   
   .panel{
       background-color: rgb(73, 72, 72);
-      width: 100%;
       color: rgb(180, 180, 180);
-      padding: 1vmin 1vmin;
+      padding: 1vmin 0 1vmin 1vmin;
   }
 
   .boldtext{
@@ -127,7 +125,66 @@
     outline: none;
     padding: 0vmin 1vmin;
     font-size: 2.6vmin;
-    color: rgb(255, 255, 255);
     margin: 2vmin;
     text-align: center;
   }
+
+  .accordion {
+    background-color: rgb(73, 72, 72);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 2.6vmin;
+    transition: 0.4s;
+  }
+  
+  .accordion:active, .accordion:hover {
+    background-color:rgb(90, 90, 90);
+  }
+
+  .lightbackcolor{
+    background-color:rgb(90, 90, 90);
+  }
+  
+  .accordion:after {
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+    float: right;
+  }
+  
+  .panelaccordian {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .iconstyle{
+    width: 7vmin;
+    height: 7vmin;
+    align-content: left;
+  }
+  .expacc{
+      line-height: 7vmin;
+  }
+
+  .centertext{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .upiconstyle{
+        width: 3vmin;
+        height: 3vmin;
+        padding: 2vmin 1vmin;
+    }
+
+    .downiconstyle{
+        width: 3vmin;
+        height: 3vmin;
+        padding: 2vmin 1vmin;
+        display: none;
+    }

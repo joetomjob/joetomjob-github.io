@@ -115,11 +115,23 @@
                 </div>
             </div>
             <div id="Experience" class="tabcontent">
-                <div class="panel">
-                    <span class="boldtext">EXPERIENCE</span>
-                </div>
-                
+              <div class="panel">
+                  <span class="boldtext">EXPERIENCE</span>
               </div>
+              <div style="height: 2vmin; width: 100%"></div>
+              <button class="accordion">
+                <div class="flexrow" style="width: 100%">
+                  <img src="assets/images/teslaicon.svg" alt="" class="iconstyle">
+                  <span class="expacc">Software Engineer</span>
+                  <span class="expacc centertext">Tesla Motors</span>
+                  <span class="expacc centertext">Jan 2019 - Present</span>
+                  <span class="expacc centertext">Fremont, CA</span>
+                  <img src="assets/images/uparrow.svg" alt="" class="upiconstyle">
+                  <img src="assets/images/downarrow.svg" alt="" class="downiconstyle">
+
+                </div>
+              </button>
+            </div>
             <div id="Projects" class="tabcontent">
                 <div class="panel">
                     <span class="boldtext">PROJECTS</span>
@@ -163,6 +175,21 @@
             }
             document.getElementById(cityName).style.display = "block";
             evt.currentTarget.className += " active";
+          }
+
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("lightbackcolor");
+              // var panel = this.nextElementSibling;
+              // if (panel.style.maxHeight){
+              //   panel.style.maxHeight = null;
+              // } else {
+              //   panel.style.maxHeight = panel.scrollHeight + "px";
+              // } 
+            });
           }
       </script>
     </body>
