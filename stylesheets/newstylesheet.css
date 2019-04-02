@@ -162,11 +162,27 @@
     transition: max-height 0.2s ease-out;
   }
 
-  .iconstyle{
+  .teslaiconstyle{
     width: 7vmin;
     height: 7vmin;
     align-content: left;
+    padding: 0 1vmin;
   }
+
+  .riticonstyle{
+    width: 7vmin;
+    height: 5vmin;
+    align-content: left;
+    padding: 1vmin 1vmin;
+  }
+
+  .ctsiconstyle{
+    width: 6vmin;
+    height: 6vmin;
+    align-content: left;
+    padding: 0.5vmin 1vmin;
+  }
+
   .expacc{
       line-height: 7vmin;
   }
