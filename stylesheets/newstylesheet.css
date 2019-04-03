@@ -100,6 +100,7 @@
       background-color: rgb(73, 72, 72);
       color: rgb(180, 180, 180);
       padding: 1vmin 0 1vmin 1vmin;
+      font-size: 2vmin;
   }
 
   .boldtext{
@@ -115,6 +116,18 @@
     border-radius: 1.5vmin;
     background-color: rgb(72, 73, 72);
     margin: 1vmin;
+    color: rgb(201, 201, 201);
+  }
+
+  .chipacc {
+    display: inline-block;
+    padding: 1vmin 1vmin;
+    height: 3vmin;
+    font-size: 2.7vmin;
+    line-height: 3vmin;
+    border-radius: 1.5vmin;
+    background-color: rgb(53, 53, 53);
+    margin: 2vmin;
     color: rgb(201, 201, 201);
   }
   
@@ -166,21 +179,22 @@
     width: 7vmin;
     height: 7vmin;
     align-content: left;
-    padding: 0 1vmin;
+    padding: 1vmin 1vmin;
+    float: left;
   }
 
   .riticonstyle{
     width: 7vmin;
     height: 5vmin;
     align-content: left;
-    padding: 1vmin 1vmin;
+    padding: 2vmin 1vmin;
   }
 
   .ctsiconstyle{
     width: 6vmin;
     height: 6vmin;
     align-content: left;
-    padding: 0.5vmin 1vmin;
+    padding: 1.5vmin 1vmin;
   }
 
   .expacc{
@@ -191,6 +205,10 @@
       margin-left: auto;
       margin-right: auto;
     }
+
+    .righttext{
+        text-align: right;
+      }
 
     .upiconstyle{
         width: 3vmin;
