@@ -103,8 +103,24 @@
       font-size: 2vmin;
   }
 
+  .subpanel{
+    background-color: rgb(53, 53, 53);
+    color: rgb(180, 180, 180);
+    padding: 1vmin 0 1vmin 1vmin;
+    font-size: 2vmin;
+    }
+
+  .aboutpanel{
+    background-color: rgb(53, 53, 53);
+    color: rgb(180, 180, 180);
+    padding: 1vmin 0 1vmin 1vmin;
+    font-size: 2vmin;
+  }
+
   .boldtext{
-      font-weight: bold
+      font-weight: bold;
+      font-size: 2.7vmin;
+
   }
 
   .chip {
@@ -129,6 +145,18 @@
     background-color: rgb(53, 53, 53);
     margin: 2vmin;
     color: rgb(201, 201, 201);
+  }
+
+  .chipexp {
+    display: inline-block;
+    padding: 0.5vmin 1vmin;
+    height: 3vmin;
+    font-size: 2.2vmin;
+    line-height: 3vmin;
+    border-radius: 1.5vmin;
+    background-color: rgb(53, 53, 53);
+    margin: 1vmin;
+    color: rgb(216, 216, 216);
   }
   
   .button{
@@ -165,14 +193,6 @@
     color: rgb(201, 201, 201);
     font-weight: bold;
     float: right;
-  }
-  
-  .panelaccordian {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
   }
 
   .teslaiconstyle{
@@ -221,4 +241,22 @@
         height: 3vmin;
         padding: 2vmin 1vmin;
         display: none;
+    }
+
+    .technologies{
+        padding: 1vmin;
+        margin: 1vmin;
+        background-color: rgb(73, 72, 72);
+        color: rgb(216, 216, 216);
+    }
+
+    .subexp{
+        justify-content: space-between;
+        background-color: rgb(73, 72, 72);
+        padding: 1vmin;
+        margin: 1vmin;
+    }
+
+    .padng{
+        padding: 1vmin;
     }
