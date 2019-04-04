@@ -20,13 +20,17 @@
           <div class="name">
             Joe Tom Job 
           </div>
-          <div class="flexrow">
-            <img id='githubicon' src="assets/images/githubicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
-            <img id='linkedinicon' src="assets/images/linkedinicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
-            <img id='fbicon' src="assets/images/fbicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
-            <img id='twittericon' src="assets/images/twittericon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
-            <img id='resumeicon' src="assets/images/resumeicon.jpg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
-          </div>
+          <div class="flexrow social">
+            <div></div>
+            <div class="flexrow social">
+              <img id='githubicon' src="assets/images/githubicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
+              <img id='linkedinicon' src="assets/images/linkedinicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
+              <img id='fbicon' src="assets/images/fbicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
+              <img id='twittericon' src="assets/images/twittericon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
+              <img id='resumeicon' src="assets/images/resumeicon.jpg" alt="" class="socialimage" onclick="sociaimageclick(this)">  
+            </div>
+            <div></div>
+        </div>
         </div>
       </div>
       <div class="bodysection">
@@ -37,6 +41,7 @@
             <button class="tablinks" onclick="openCity(event, 'Experience')">EXPERIENCE</button>
             <button class="tablinks" onclick="openCity(event, 'Projects')">PROJECTS</button>
             <button class="tablinks" onclick="openCity(event, 'Education')">EDUCATION</button>
+            <button class="tablinks" onclick="openCity(event, 'Contact Me')">CONTACT ME</button>
           </div>
           <div style="overflow: scroll;">
             <div id="About Me" class="tabcontent" style="display: block;">
@@ -250,9 +255,168 @@
               </div>
             </div>
             <div id="Projects" class="tabcontent">
-                <div class="panel">
-                    <span class="boldtext">ACADEMIC PROJECTS</span>
+              <div class="panel">
+                  <span class="boldtext">ACADEMIC PROJECTS</span>
+              </div>
+              <div style="height: 2vmin; width: 100%"></div>
+              <button class="accordion" onclick="openAccordian(event, 'ritacademic')">
+                <div class="flexrow" style="width: 100%">
+                  <img src="assets/images/riticon.jpg" alt="" class="riticonstyle">
+                  <div class="chipacc">RIT</div>
+                  <div class="chipacc" style="margin-left: auto">Rochester, NY</div>
+                  <img id="ritacademicup" src="assets/images/uparrow.svg" alt="" class="upiconstyle">
+                  <img id="ritacademicdown" src="assets/images/downarrow.svg" alt="" class="downiconstyle">
                 </div>
+              </button>
+              <div id="ritacademicpanel" class="subpanel">
+                <div class="chipaccexp">Autism Study using Virtual reality</div>
+                <div>
+                  <ul style="list-style-type:disc;">
+                    <li> The study examines the impact of social stimuli on physiological and behavioral regulation, and how these reactions relate to social motivation in children with and without ASD (5-7 yrs).</li>
+                    <li> To study these constructs in a methodologically rigorous and ecologically valid manner, an original 360 film with spatial audio was created to simulate a play group, where child actors become progressively more social with the camera/viewer.</li>
+                    <li>
+                      <div class="flexrow flexwrap">
+                        <div>Technologies: </div>
+                        <div class="chipproj">Unity</div>
+                        <div class="chipproj">Ricoh Theta V</div>
+                        <div class="chipproj">Oculus Go</div>
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+
+                <div class="chipaccexp">Movie Insights</div>
+                <div>
+                  <ul style="list-style-type:disc;">
+                    <li> This project proposes a predictive model leveraging supervised learning over the IMDb dataset combined with an external movie awards dataset to predict the overall rating of any movie.</li>
+                    <li>
+                      <div class="flexrow flexwrap">
+                        <div>Technologies: </div>
+                        <div class="chipproj">Python</div>
+                        <div class="chipproj">Weka</div>
+                        <div class="chipproj">PostgreSQL</div>
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+
+                <div class="chipaccexp">Student Housing</div>
+                <div>
+                  <ul style="list-style-type:disc;">
+                    <li> This is an ios application developed in swift. This application acts as a platform for students looking for housing which includes rent, sublet and roommate requests.</li>
+                    <li>
+                      <div class="flexrow flexwrap">
+                        <div>Technologies: </div>
+                        <div class="chipproj">Swift</div>
+                        <div class="chipproj">Xcode</div>
+                        <div class="chipproj">Firebase</div>
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+
+                <div class="chipaccexp">Multi Node Label Routing Protocol (MNLR)</div>
+                <div>
+                  <ul style="list-style-type:disc;">
+                    <li> Implementing new protocol for network communication for a NSF funded project.</li>
+                    <li> Designed the algorithm for forwarding the IP packets in the protocol.</li>
+                    <li> Created scripts to automate some of the manual processes.</li>
+                    <li> Cleaned up the entire stack and improved the code readability.</li>
+                    <li>
+                      <div class="flexrow flexwrap">
+                        <div>Technologies: </div>
+                        <div class="chipproj">C</div>
+                        <div class="chipproj">Python</div>
+                        <div class="chipproj">Linux</div>
+                        <div class="chipproj">GENI</div>
+                        <div class="chipproj">Emulab</div>
+                        <div class="chipproj">Git</div>
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+
+                <div class="chipaccexp">Food Product Recommender System</div>
+                <div>
+                  <ul style="list-style-type:disc;">
+                    <li> Developed a robust Food Recommender System.</li>
+                    <li> Achieved an accuracy of over 87% accuracy in suggesting the correct food item to the user. </li>
+                    <li>
+                      <div class="flexrow flexwrap">
+                        <div>Technologies: </div>
+                        <div class="chipproj">Rattle</div>
+                        <div class="chipproj">R</div>
+                        <div class="chipproj">PostgreSQL</div>
+                        <div class="chipproj">Java</div>
+                        <div class="chipproj">Spring</div>
+                        <div class="chipproj">Maven</div>
+                        <div class="chipproj">Numpy</div>
+                        <div class="chipproj">Pandas</div>
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+
+                <div class="chipaccexp">Gender Recognition by Voice</div>
+                <div>
+                  <ul style="list-style-type:disc;">
+                    <li> Machine learning techniques were applied on acoustic properties of voice to predict the gender.</li>
+                    <li> Achieved an accuracy of over 97% in predicting the gender using Random Forest Classifier model.</li>
+                    <li>
+                      <div class="flexrow flexwrap">
+                        <div>Technologies: </div>
+                        <div class="chipproj">Python</div>
+                        <div class="chipproj">Rattle</div>
+                        <div class="chipproj">Sci-kit</div>
+                        <div class="chipproj">Numpy</div>
+                        <div class="chipproj">Pandas</div>
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+              </div>
+              <div style="height: 2vmin; width: 100%"></div>
+              <button class="accordion" onclick="openAccordian(event, 'cetacademic')">
+                <div class="flexrow" style="width: 100%">
+                  <img src="assets/images/ceticon.png" alt="" class="ceticonstyle">
+                  <div class="chipacc">CET</div>
+                  <div class="chipacc" style="margin-left: auto">Kerala, IN</div>
+                  <img id="cetacademicup" src="assets/images/uparrow.svg" alt="" class="upiconstyle">
+                  <img id="cetacademicdown" src="assets/images/downarrow.svg" alt="" class="downiconstyle">
+                </div>
+              </button>
+              <div id="cetacademicpanel" class="subpanel">
+                <div class="chipaccexp">Missing ECG Signal Reconstruction</div>
+                <div>
+                  <ul style="list-style-type:disc;">
+                    <li> Developed effective method in reconstructing the ECG signals.</li>
+                    <li> Supervised learning methods(neural networks) were used to fill in short missing segments in multi parameter ICU cardiovascular data using MATLAB.</li>
+                    <li>
+                      <div class="flexrow flexwrap">
+                        <div>Technologies: </div>
+                        <div class="chipproj">MATLAB</div>
+                        <div class="chipproj">Python</div>
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+
+                <div class="chipaccexp">Energy Efficient Assisted GPS</div>
+                <div>
+                  <ul style="list-style-type:disc;">
+                    <li> Developed a software to reduce power consumption of wearable GPS and cellular tracker devices.</li>
+                    <li> GPS history data collected were filtered, clustered and pruned to detect frequently visited locations and crucial locations (for path reconstruction purpose).</li>
+                    <li> A set of significant locations were obtained and transition probabilities were calculated.</li>
+                    <li>
+                      <div class="flexrow flexwrap">
+                        <div>Technologies: </div>
+                        <div class="chipproj">MATLAB</div>
+                        <div class="chipproj">Python</div>
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+              </div>
             </div>
             <div id="Education" class="tabcontent">
               <div class="panel">

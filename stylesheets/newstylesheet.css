@@ -1,3 +1,7 @@
+body {
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+
 .flexrow{
     display: flex;
     flex-direction: row;
@@ -38,7 +42,6 @@
 
 .name{
     font-size: 10vmin;
-    font-family: Arial, Helvetica, sans-serif; 
     text-align: center;
     color: rgb(145, 193, 255);
 }
@@ -49,6 +52,7 @@
     height: 7vmin;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 3vmin;
 }
 
 .centerimage{
@@ -147,6 +151,18 @@
     color: rgb(201, 201, 201);
   }
 
+  .chipaccexp {
+    display: inline-block;
+    padding: 1vmin 1vmin;
+    height: 3vmin;
+    font-size: 2.7vmin;
+    line-height: 3vmin;
+    border-radius: 1.5vmin;
+    background-color: rgb(72, 73, 72);
+    margin: 2vmin;
+    color: rgb(201, 201, 201);
+  }
+
   .chipexp {
     display: inline-block;
     padding: 0.5vmin 1vmin;
@@ -157,6 +173,15 @@
     background-color: rgb(53, 53, 53);
     margin: 1vmin;
     color: rgb(216, 216, 216);
+  }
+
+  .chipproj {
+    display: inline-block;
+    padding: 0 1vmin;
+    border-radius: 1.5vmin;
+    background-color: rgb(72, 73, 72);
+    color: rgb(216, 216, 216);
+    margin: 0 1vmin;
   }
   
   .button{
@@ -210,6 +235,13 @@
     padding: 2vmin 1vmin;
   }
 
+  .ceticonstyle{
+    width: 7vmin;
+    height: 7vmin;
+    align-content: left;
+    padding: 1vmin 1vmin;
+  }
+
   .ctsiconstyle{
     width: 6vmin;
     height: 6vmin;
@@ -255,6 +287,10 @@
         background-color: rgb(73, 72, 72);
         padding: 1vmin;
         margin: 1vmin;
+    }
+
+    .social{
+        justify-content: space-between;
     }
 
     .padng{
