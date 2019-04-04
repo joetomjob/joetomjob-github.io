@@ -300,7 +300,7 @@
                   </ul> 
                 </div>
 
-                <div class="chipaccexp">Student Housing</div>
+                <div id="studenthousing" class="chipaccexp pointer" onclick="openLink(this)">Student Housing</div>
                 <div>
                   <ul style="list-style-type:disc;">
                     <li> This is an ios application developed in swift. This application acts as a platform for students looking for housing which includes rent, sublet and roommate requests.</li>
@@ -422,6 +422,44 @@
               <div class="panel">
                   <span class="boldtext">EDUCATION</span>
               </div>
+              <div style="height: 2vmin; width: 100%"></div>
+              <button id="ritpage" class="accordion" onclick="openLink(this)">
+                <div class="flexrow" style="width: 100%">
+                  <img src="assets/images/riticon.jpg" alt="" class="riticonstyle">
+                  <div class="chipacc">Rochester Institute of Technology</div>
+                </div>
+                <div style="margin-left: 12vmin">
+                  Master of Science, Computer Science
+                </div>
+                <div style="margin-left: 12vmin">
+                  2016 - 2018
+                </div>
+                <div style="margin-left: 12vmin">
+                  <div class="flexrow flexwrap">
+                    <div style="margin: 0.7vmin">GPA: </div>
+                    <div class="chipexp">3.82 / 4</div>
+                  </div>
+                </div>
+              </button>
+              <div style="height: 2vmin; width: 100%"></div>
+              <button id="cetpage" class="accordion" onclick="openLink(this)">
+                <div class="flexrow" style="width: 100%">
+                  <img src="assets/images/ceticon.png" alt="" class="ceticonstyle">
+                  <div class="chipacc">College of Engineering Trivandrum</div>
+                </div>
+                <div style="margin-left: 12vmin">
+                  Bachelor of Technology, Electronics and Communication Engineering
+                </div>
+                <div style="margin-left: 12vmin">
+                  2008 - 2012
+                </div>
+                <div style="margin-left: 12vmin">
+                  <div class="flexrow flexwrap">
+                    <div style="margin: 0.7vmin">GPA: </div>
+                    <div class="chipexp">7.47 / 10</div>
+                  </div>
+                </div>
+              </button>
             </div>
           </div>
         </div>
@@ -454,6 +492,18 @@
             }
             document.getElementById(cityName).style.display = "block";
             evt.currentTarget.className += " active";
+          }
+          
+          function openLink(event) {
+            var i, tabcontent, tablinks;
+            if(event.id == 'studenthousing'){
+              window.open("https://github.com/joetomjob/iosGithub", '_blank');
+            } else if(event.id == 'ritpage') {
+              window.open("https://www.rit.edu/", '_blank');
+            } else if(event.id == 'cetpage') {
+              window.open("https://www.cet.ac.in/", '_blank');
+            }
+
           }
 
           function openAccordian(evt, accname){

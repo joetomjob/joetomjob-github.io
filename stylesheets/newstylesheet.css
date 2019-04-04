@@ -175,6 +175,10 @@ body {
     color: rgb(216, 216, 216);
   }
 
+  .pointer{
+    cursor: pointer;
+  }
+
   .chipproj {
     display: inline-block;
     padding: 0 1vmin;
