@@ -232,6 +232,20 @@ body {
     float: left;
   }
 
+  .gmailiconstyle{
+    width: 5vmin;
+    height: 5vmin;
+    align-content: left;
+    float: left;
+  }
+
+  .phoneiconstyle{
+    width: 5vmin;
+    height: 5vmin;
+    align-content: left;
+    float: left;
+  }
+
   .riticonstyle{
     width: 7vmin;
     height: 5vmin;
@@ -299,4 +313,8 @@ body {
 
     .padng{
         padding: 1vmin;
+    }
+
+    .email{
+        color: rgb(145, 193, 255);
     }
