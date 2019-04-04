@@ -274,49 +274,49 @@ body {
   }
 
   .centertext{
-      margin-left: auto;
-      margin-right: auto;
-    }
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .righttext{
-        text-align: right;
-      }
+  .righttext{
+    text-align: right;
+  }
 
-    .upiconstyle{
-        width: 3vmin;
-        height: 3vmin;
-        padding: 2vmin 1vmin;
-    }
+  .upiconstyle{
+    width: 3vmin;
+    height: 3vmin;
+    padding: 2vmin 1vmin;
+  }
 
-    .downiconstyle{
-        width: 3vmin;
-        height: 3vmin;
-        padding: 2vmin 1vmin;
-        display: none;
-    }
+  .downiconstyle{
+    width: 3vmin;
+    height: 3vmin;
+    padding: 2vmin 1vmin;
+    display: none;
+  }
 
-    .technologies{
-        padding: 1vmin;
-        margin: 1vmin;
-        background-color: rgb(73, 72, 72);
-        color: rgb(216, 216, 216);
-    }
+  .technologies{
+    padding: 1vmin;
+    margin: 1vmin;
+    background-color: rgb(73, 72, 72);
+    color: rgb(216, 216, 216);
+  }
 
-    .subexp{
-        justify-content: space-between;
-        background-color: rgb(73, 72, 72);
-        padding: 1vmin;
-        margin: 1vmin;
-    }
+  .subexp{
+    justify-content: space-between;
+    background-color: rgb(73, 72, 72);
+    padding: 1vmin;
+    margin: 1vmin;
+  }
 
-    .social{
-        justify-content: space-between;
-    }
+  .social{
+    justify-content: space-between;
+  }
 
-    .padng{
-        padding: 1vmin;
-    }
+  .padng{
+    padding: 1vmin;
+  }
 
-    .email{
-        color: rgb(145, 193, 255);
-    }
+  .email{
+    color: rgb(145, 193, 255);
+  }
