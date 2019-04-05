@@ -108,6 +108,13 @@ body {
     font-size: 2vmin;
 }
 
+.myfullimage{
+  background-image: url("../assets/images/laptop.jpeg");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 100%;
+}
+
 .subpanel{
   background-color: rgb(53, 53, 53);
   color: rgb(180, 180, 180);
@@ -120,6 +127,7 @@ body {
   color: rgb(180, 180, 180);
   padding: 1vmin 0 1vmin 1vmin;
   font-size: 2vmin;
+  height: 100%;
 }
 
 .boldtext{
