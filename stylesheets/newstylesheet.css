@@ -23,6 +23,7 @@ body {
 .myimage{
     width: 20vmin;
     height: 20vmin;
+    border-radius: 50%;
 }
 
 .mainpage{
@@ -53,7 +54,7 @@ body {
     height: 7vmin;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 3vmin;
+    padding: 0 3vmin;   
 }
 
 .centerimage{
